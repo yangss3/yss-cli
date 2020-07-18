@@ -10,9 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "vue",
     "cli",
-    "mobile"
+    "node",
+    "vue",
+    "template"
   ],
   "files": [
     "bin",
