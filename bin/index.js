@@ -2,7 +2,7 @@
 const { program } = require('commander')
 const enhanceErrorMessages = require('../lib/utils/enhanceErrorMessages')
 program
-  .version(`yss-cli v${require('../package.json').version}`)
+  .version(`yss-cli v${require('../package.json').version}`, '-v,--version')
   .name('yss')
   .usage('<command> [options]')
 
