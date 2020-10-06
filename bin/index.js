@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 const { program } = require('commander')
-const enhanceErrorMessages = require('../lib/utils/enhanceErrorMessages')
+
 program
-  .version(`yss-cli v${require('../package.json').version}`, '-v,--version')
+  .version(`yss-cli v${require('../package.json').version}`, '-v, --version')
   .name('yss')
   .usage('<command> [options]')
 
@@ -13,6 +13,6 @@ program
     require('../lib/create')(projectName)
   })
 
-enhanceErrorMessages()
+require('../lib/utils/enhanceErrorMessages')()
 
 program.parse(process.argv)
