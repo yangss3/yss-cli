@@ -1,6 +1,6 @@
 {
   "name": "@yangss/yss-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue项目模板生成工具",
   "main": "index.js",
   "bin": {
